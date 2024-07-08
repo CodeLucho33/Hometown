@@ -1,6 +1,23 @@
+:root{
+--colorA:#405D72;
+--colorB:#758694;
+--colorC: #F7E7DC;
+--colorD:#FFF8F3;
+
+}
+#title-places{
+ position: absolute;
+ top: 400px;
+}
+
 .main-place{
+
     background-image: url("images/PhotoByFernandaFierroOnUnsplash.jpg");
     background-size: cover;
+    background-repeat: space;
+    width: 100%;
+    height: 343px;
+    margin: 0;
 }
 
 .image-1{
@@ -8,6 +25,7 @@
     background-size: cover;
 width: 80px;
 height: 80px;
+margin: 0 auto;
 
 }
 .image-2{
@@ -15,6 +33,7 @@ height: 80px;
     background-size: cover;
     width: 80px;
     height: 80px;
+    margin: 0 auto;
 
 }
 .image-3{
@@ -22,12 +41,29 @@ height: 80px;
     background-size: cover;
     width: 80px;
     height: 80px;
+    margin: 0 auto;
 
 }
 .MY{
 background-image: url("images/LuisRestrepo.jpg");
 background-size: cover;
-width: 100px;
+width: 400px;
 height: 150px;
 
+}
+.turist-places{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    margin-top: 100px ;
+}
+.my-card{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+    height: 300px;
+    margin: 10px auto;
 }
