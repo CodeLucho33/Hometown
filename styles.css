@@ -1,0 +1,33 @@
+.main-place{
+    background-image: url("images/PhotoByFernandaFierroOnUnsplash.jpg");
+    background-size: cover;
+}
+
+.image-1{
+    background-image: url("images/PhotoByFernandaFierroOnUnsplash.jpg");
+    background-size: cover;
+width: 80px;
+height: 80px;
+
+}
+.image-2{
+    background-image: url("images/PhotoByAzzedineRouichiOnUnsplash.jpg");
+    background-size: cover;
+    width: 80px;
+    height: 80px;
+
+}
+.image-3{
+    background-image: url("images/PhotoBySaraIllustrationUnsplash.jpg");
+    background-size: cover;
+    width: 80px;
+    height: 80px;
+
+}
+.MY{
+background-image: url("images/LuisRestrepo.jpg");
+background-size: cover;
+width: 100px;
+height: 150px;
+
+}
