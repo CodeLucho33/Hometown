@@ -3,11 +3,43 @@
 --colorB:#758694;
 --colorC: #F7E7DC;
 --colorD:#FFF8F3;
+font-family: Arial, Helvetica, sans-serif;
+}
+#second-tittle{
+    color: var(--colorA);
+}
+.second_tittle{
+    color: var(--colorA);
+} 
+
+.textcolor{
+    color: var(--colorB);
+}
+#main-title{
+color: var(--colorD);
+display: block;
+width: 230px;
+height: 40px;
+margin: 10px auto;
+border-radius: 6px;
+background-color: var(--colorA);
+padding: 5px 10px;
+}
+
+#other-title{
+color: var(--colorD);
+display: block;
+width: 400px;
+height: 60px;
+margin: 0 auto;
+background-color: var(--colorB);
+border-radius: 6px;
+padding: 5px 10px;
 
 }
 #title-places{
  position: absolute;
- top: 400px;
+ top: 350px;
 }
 
 .main-place{
@@ -26,6 +58,7 @@
 width: 80px;
 height: 80px;
 margin: 0 auto;
+border-radius: 50%;
 
 }
 .image-2{
@@ -34,7 +67,7 @@ margin: 0 auto;
     width: 80px;
     height: 80px;
     margin: 0 auto;
-
+    border-radius: 50%;
 }
 .image-3{
     background-image: url("images/PhotoBySaraIllustrationUnsplash.jpg");
@@ -42,6 +75,7 @@ margin: 0 auto;
     width: 80px;
     height: 80px;
     margin: 0 auto;
+    border-radius: 50%;
 
 }
 .MY{
@@ -49,6 +83,8 @@ background-image: url("images/LuisRestrepo.jpg");
 background-size: cover;
 width: 400px;
 height: 150px;
+border-radius: 15px;
+
 
 }
 .turist-places{
@@ -63,7 +99,9 @@ height: 150px;
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    width: 500px;
-    height: 300px;
+    width: 400px;
+    height: 200px;
     margin: 10px auto;
+    background-color: var(--colorD);
+    border-bottom:5px solid var(--colorA) ;
 }
